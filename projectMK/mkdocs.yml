@@ -1,4 +1,6 @@
 site_name: Student Management System User and Developers Documentation
+nav:
+    - Home: index.md
 theme:
   name: material
 

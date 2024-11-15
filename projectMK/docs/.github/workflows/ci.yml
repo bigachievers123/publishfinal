@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - main
+      - gh-page
 
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'  # specify the version you need, e.g., 3.10
+          python-version: '3.x' 
 
       - name: Install dependencies
         run: |
